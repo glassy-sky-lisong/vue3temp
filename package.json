@@ -1,11 +1,20 @@
 {
-  "name": "vue3temp",
-  "description": "vue3 template codesandbox",
-  "main": "src/index.js",
+  "name": "vue3-temp",
+  "description": "codesandbox vue3 template",
+  "version": "1.0.0",
   "scripts": {
-    "start": "nodemon ./src/index.js"
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.6"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vue/compiler-sfc": "^3.2.6",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.2",
+    "vue-tsc": "^0.2.2"
   }
 }
