@@ -1,0 +1,11 @@
+{
+  "name": "vue3temp",
+  "description": "vue3 template codesandbox",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
